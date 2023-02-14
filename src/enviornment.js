@@ -1,6 +1,6 @@
 export const Enviornment = {
-    tmdbImageBasePath: "https://images.tmdb.org/t/p/original",
-    tmdbAPIUrl: "https://api.themoviedb.org/3",
-    tmdbAPIKey: "d0610d8612fa2e4b76c61526d90c3261",
+    tmdbImageBasePath: process.env.REACT_APP_IMAGE_BASE_PATH,
+    tmdbAPIUrl: process.env.REACT_APP_TMDB_API_URL,
+    tmdbAPIKey: process.env.REACT_APP_TMDB_API_KEY,
     ownAPIUrl: process.env.REACT_APP_OWN_API_URL
 }
