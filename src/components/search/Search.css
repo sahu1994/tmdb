@@ -1,0 +1,25 @@
+.search-field {
+    position: relative;
+    flex: 1 auto;
+}
+.search-suggestion {
+    position: absolute;
+    z-index: 99;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    list-style: none;
+    padding: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    border: 1px solid #dbdbdb;
+    max-height: 180px;
+    overflow-y: auto;
+}
+.search-suggestion > li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.search-suggestion > li + li {
+    border-top: 1px solid #dbdbdb;
+}
