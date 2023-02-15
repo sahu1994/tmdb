@@ -10,6 +10,7 @@ export const Router = () => {
     return (
         <Routes>
             <Route path='/' exact element={<Home />} />
+            <Route path='/tmdb' exact element={<Home />} />
             <Route path='/register' exact element={<Register />} />
             <Route path='/login' exact element={<Login />} />
             <Route path='/dashboard' exact element={<Dashboard />} />

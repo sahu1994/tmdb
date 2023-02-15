@@ -6,7 +6,6 @@ import './index.css';
 import App from './components/app/App';
 import reportWebVitals from './reportWebVitals';
 import store from './store/store';
-console.log(`[EntryPoint] envVars::`, { envVars: process.env })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
